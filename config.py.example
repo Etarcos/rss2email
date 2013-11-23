@@ -1,7 +1,7 @@
 ### Options for configuring rss2email ###
 
 # The email address messages are from by default:
-DEFAULT_FROM = "bozo@dev.null.invalid"
+DEFAULT_FROM = "etarcos@gmail.com"
 
 # 1: Send text/html messages when possible.
 # 0: Convert HTML to plain text.
@@ -45,13 +45,13 @@ USE_PUBLISHER_EMAIL = 0
 SMTP_SEND = 1
 
 SMTP_SERVER = "smtp.yourisp.net:25"
-AUTHREQUIRED = 0 # if you need to use SMTP AUTH set to 1
-SMTP_USER = 'username'  # for SMTP AUTH, set SMTP username here
-SMTP_PASS = 'password'  # for SMTP AUTH, set SMTP password here
+AUTHREQUIRED = 1 # if you need to use SMTP AUTH set to 1
+SMTP_USER = 'etarcos@gmail.com'  # for SMTP AUTH, set SMTP username here
+SMTP_PASS = '****'  # for SMTP AUTH, set SMTP password here
 
 # Connect to the SMTP server using SSL
 
-SMTP_SSL = 0
+SMTP_SSL = 1
 
 
 
